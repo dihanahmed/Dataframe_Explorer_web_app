@@ -35,7 +35,7 @@ def load_data():
 
 # Main App
 def main():
-    st.title("CSV Explorer")
+    st.title("Dataframe Explorer")
     st.subheader("1. Menu for uploading a CSV file")
     df = load_data()
 
